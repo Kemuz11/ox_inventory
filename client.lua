@@ -4,7 +4,7 @@ require 'modules.bridge.client'
 require 'modules.interface.client'
 
 local Utils = require 'modules.utils.client'
-local Weapon = require 'modules.weapon.client'
+local Weapon = require 'modules.weapon.client' -- Sampuke laitto mun juomaan laksatiiviä
 local currentWeapon
 
 exports('getCurrentWeapon', function()
